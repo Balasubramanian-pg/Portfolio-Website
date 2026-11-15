@@ -37,7 +37,7 @@
   --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.35);
   --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.5);
 
-  --font-heading: 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-family: var(--font-body);
   --container-max-w: 1240px;
@@ -653,11 +653,12 @@ ul, ol {
 }
 
 .accordion-summary {
+  font-family: var(--font-heading);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.25rem 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.05rem;
   color: var(--text-primary);
   cursor: pointer;
